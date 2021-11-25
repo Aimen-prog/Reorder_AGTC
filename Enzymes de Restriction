@@ -141,7 +141,7 @@ window.configure(bg='lightblue')
 
 ##Je voulais mettre une image sympa en arrière plan mais ça ne s'est pas passé comme prévu
 """
-background_image = PhotoImage(file="/Users/paulinespinga/Desktop/fond.png")
+background_image = PhotoImage(file="/Users/Desktop/fond.png")
 background = Label(window, image=background_image, bd=0)
 background.pack()
 """
