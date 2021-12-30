@@ -139,13 +139,6 @@ window.minsize(720,780) #forcer à avoir des dimensions minimales (on ne peut pa
 window.maxsize(720,780)
 window.configure(bg='lightblue')
 
-##Je voulais mettre une image sympa en arrière plan mais ça ne s'est pas passé comme prévu
-"""
-background_image = PhotoImage(file="/Users/Desktop/fond.png")
-background = Label(window, image=background_image, bd=0)
-background.pack()
-"""
-
 
 ##création zone affichage tableau exemple
 URL = "https://i.ibb.co/pynqsyM/2.gif"
@@ -221,7 +214,7 @@ listeChoix = ["A","B","C","D","E","F","G","H"]
 #but = B+A+D+C+F+E
 but = C+F+E+G+A+D+B+H
 
-## fonction callback pour menu déroulant (on ne s'en sert pas en fait)
+## fonction callback pour menu déroulant
 def callbackMenu1(event):
     select1 = menu1.get()
     return select1
@@ -332,7 +325,7 @@ def affichBravo():
     fen.title("Bravo") #titre de la fenêtre
     
     fen.geometry("500x500")
-    fen.minsize(500,500) #forcer à avoir des dimensions minimales (on ne peut pas avoir plus petit)
+    fen.minsize(500,500) #dimensions minimales 
     title = Label(fen, text="Bravo", bg="lightgreen",width=300,height=300,font=fontSubTitle)
     title.pack()
     
