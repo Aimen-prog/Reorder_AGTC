@@ -1,5 +1,5 @@
 # Reorder DNA
-Reconstitution ADN/ Recherche de quel organisme il s'agit (pas encore implémenté)
+Reconstitution ADN/ Recherche de quel organisme il s'agit.
 # Authors
 Pauline SPINGA
 <br>
